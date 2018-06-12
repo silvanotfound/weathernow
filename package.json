@@ -1,0 +1,24 @@
+{
+  "name": "weathernow",
+  "version": "1.0.0",
+  "description": "Uma aplicação para exibir a temperatura atual de 3 cidades",
+  "main": "./src/index.jsx",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvanotfound/weathernow.git"
+  },
+  "author": "Carlos Henrique da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvanotfound/weathernow/issues"
+  },
+  "homepage": "https://github.com/silvanotfound/weathernow#readme",
+  "devDependencies": {
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
